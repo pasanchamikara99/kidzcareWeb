@@ -16,7 +16,7 @@ body {
   /* You can adjust the size as needed */
   color: #067d56;
   /* Color (optional, feel free to adjust) */
-  font-family: 'Kablammo', cursive;
+  font-family: "Apple Chancery", cursive;
 }
 
 .navbar {
@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 10px 20px;
   z-index: 1000;
   transition: background-color 0.3s ease;
   background-color: #067d56;
@@ -49,12 +49,13 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
+  font-family: "Apple Chancery", cursive;
 }
 
 .nav-links a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   transition: color 0.3s ease;
   margin-left: 20px;
 }
@@ -381,7 +382,7 @@ h1 {
 }
 
 .left-image {
-  width: 650px;
+  width: 400px;
   /* Adjust the width of the image */
   height: auto;
   /* Maintain aspect ratio */
@@ -798,10 +799,11 @@ h1 {
 
 /* Team Card Text */
 .team-card h3 {
-  font-size: 22px;
-  color: #1c0078;
+  font-size: 20px;
+  color: #067d56;
   margin-bottom: 10px;
   text-align: left;
+  font-weight: bold;
 }
 
 .team-card p {
@@ -845,6 +847,24 @@ h1 {
   height: 40px;
   background: url("linkedin.png") no-repeat center;
   background-size: cover;
+}
+
+.email-icon i {
+  color: #067d56;
+  /* Default color (black) */
+  font-size: 24px;
+  /* Adjust icon size */
+}
+
+/* Change colors individually */
+.email-icon i.fa-envelope {
+  color: #067d56;
+  /* Gmail red */
+}
+
+.email-icon i.fa-linkedin {
+  color: #067d56;
+  /* LinkedIn blue */
 }
 
 /* Contact Us Section */
@@ -1064,7 +1084,7 @@ h1 {
   .document-card .download-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #001F3F;
+    background-color: #14b77b;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -1073,7 +1093,7 @@ h1 {
   }
 
   .document-card .download-link:hover {
-    background-color: #ff9800;
+    background-color: #077f13;
   }
 
   .document-card:hover {
