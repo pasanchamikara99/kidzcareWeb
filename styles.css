@@ -69,8 +69,10 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ff0000;
+  color: #00ffbf;
   text-decoration: none;
+  text-decoration: underline;
+
 }
 
 /* Hamburger Menu */
