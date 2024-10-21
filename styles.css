@@ -1,4 +1,4 @@
-:root  {
+:root {
   --main-bg-color: rgb(75, 0, 112);
   --secondary-bg-color: rgb(93, 0, 140);
 }
@@ -413,6 +413,8 @@ h1 {
   /* Align the text to the left */
   flex-grow: 1;
   /* Allow text content to take remaining space */
+
+  font-size: 10px;
 }
 
 .references {
