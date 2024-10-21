@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aspira</title>
-    <link rel="icon" href="./logo.png" type="image/png">
+    <title>KidzCare</title>
+    <link rel="icon" href="./logInImage.png" type="image/png">
+
     <link rel="stylesheet" href="styles.css" />
     <!-- Bootstrap CSS -->
     <link
@@ -22,6 +23,14 @@
 
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    .contact a {
+        margin-right: 10px; /* Adjust the value for more or less space */
+    }
+</style>
     
   </head>
 
@@ -29,7 +38,8 @@
 
     <nav class="navbar">
         <div class="logo">
-          <img src="logo.png" alt="Logo" />
+          <img src="Images/logo.png" alt="Logo"/>
+
         </div>
         <ul class="nav-links">
 
@@ -65,7 +75,8 @@
 
     <section class="hero">
         <div class="hero-text">
-            <h1 class="aspira-text">Kidz Care</h1>
+            <h1 class="aspira-text">KidzCare</h1>
+
           <h1>Intelligent Daycare: Enhancing Child Safety with IoT and Machine Learning Innovations</h1>
         </div>
       </section>
@@ -79,10 +90,16 @@
     </div>
     <div class="research-content">
       <p>
-        This research addresses the challenge of limited individualized attention in large daycare settings, which can lead to safety risks and hinder children's development. With numerous children to supervise, caregivers often struggle to monitor each one closely, increasing the chances of incidents like children wandering off, accidents, and even social exclusion. These issues not only jeopardize physical safety but can also affect emotional and social well-being by disrupting routines and reducing children's sense of belonging.
-      </p>
-      <p>
-        The proposed solution leverages advanced technologies, including IoT cameras, sensors, and AI algorithms, to enhance supervision. These tools provide real-time monitoring, track children's movements, and detect risks like falls or hazardous behavior. Additionally, facial recognition technology enables personalized activity tracking, while a feedback loop allows teachers to adjust schedules dynamically based on real-time data. This smart daycare approach ensures both safety and a more inclusive, supportive environment for all children, addressing the limitations of traditional supervision methods.
+
+       This research addresses the challenge of limited individualized attention in large daycare settings, which can lead to safety risks and hinder children's development. With numerous children to supervise, caregivers often struggle to monitor each one closely, increasing the chances of incidents like children wandering off, accidents, and even social exclusion. These issues not only jeopardize physical safety but can also affect emotional and social well-being by disrupting routines and reducing children's sense of belonging.
+
+The proposed solution leverages advanced technologies, including IoT cameras, sensors, and AI algorithms, 
+to enhance supervision. These tools provide real-time monitoring, track children's movements, and detect risks like falls 
+or hazardous behavior. Additionally, facial recognition technology enables personalized activity tracking, while a feedback loop 
+allows teachers to adjust schedules dynamically based on real-time data. This smart daycare approach ensures both safety and a more inclusive, 
+supportive environment for all children, addressing the limitations of traditional supervision methods
+
+ 
       </p>
     </div>
   </section>
@@ -90,12 +107,20 @@
 
   <section class="lit" id="lit"> 
     <div class="research-item">
-        <h2><strong> Literature Survey </strong></h2><br/>
+      <h3>Literature Survey</h3>
+        <h6>Enhancing Child Safety through Smart Surveillance Systems</h6><br/>
      
         <div class="content-container">
+
             <img src="Images/lit.png" alt="Relevant Image" class="left-image">
+
+
             <div class="text-references">
-                <p>
+
+                <p>Current solutions primarily focus on basic safety measures, such as 
+                  location tracking and emergency alerts, but often overlook critical aspects like understanding children's emotional states and analyzing behavior. Young children frequently express their needs through 
+                  non-verbal signals, such as crying. Recognizing these signals is crucial for timely caregiver intervention, impacting a child's well-being and development.</p>
+
                   Limited supervision in large daycare environments is a well-documented challenge, with significant implications for children's safety and development. Raikes and Thompson (2003) highlight how the lack of individualized attention can negatively affect emotional and social development, while Elicker and Fortner-Wood (1999) show that inconsistent supervision leads to increased accidents and behavioral issues. These risks underscore the need for more effective monitoring strategies to ensure both the physical safety and emotional well-being of children in such settings.
                 </p>
                 <p>
@@ -128,33 +153,32 @@
     
         <div class="research-item">
           <h3>Research Gap</h3><br/>
-          <h6>Following areas are the research gaps found in most of the recent researches.</h6><br/>
+          <h6>Research Gaps in Current Child Safety Technologies.</h6><br/>
    <div class="gaps">
     <div class="gap">
-      <h4>Integration of Diverse AI Technologies</h4>
+      <h5>Integration of Multi-Modal AI Approaches</h5>
       <p>
-        While existing studies explore the efficacy of individual technologies like GNN, 
-        GNN,RNN,RAG,OCR in educational settings, there is a lack of research on the integration 
-        of these technologies within a single platform. Understanding how these systems
-         can work synergistically to provide holistic recommendations tailored to Sri Lankan students’ needs remains unexplored.
+        While many studies investigate the effectiveness of specific AI technologies like IoT, 
+        machine learning, and computer vision in enhancing child safety, there is limited research on combining these approaches into a cohesive framework. Exploring how multi-modal AI can be harnessed to develop a more robust and adaptive system for continuous monitoring and proactive risk management in educational environments is an area that requires further investigation. 
+        This integration could facilitate more accurate assessments of children's safety and well-being by leveraging the strengths of each technology.
       </p>
     </div>
     
     <div class="gap">
-      <h4>Limited Personalization in Existing Systems</h4>
+      <h5>Insufficient Parent-Caregiver Communication</h5>
       <p>
-        Educational advisory systems frequently offer generic recommendations that overlook students' diverse backgrounds and 
-        evolving goals. Implementing data-driven, personalized solutions can empower students to make informed choices aligned 
-        with their unique aspirations and preferences.
+       Many current technologies do not prioritize communication between caregivers and parents, 
+       limiting transparency regarding children's safety. 
+       There is a gap in research focused on developing systems that provide parents with real-time updates and insights, fostering trust and reassurance about their child's well-being.
       </p>
     </div>
 
     <div class="gap">
-      <h4>Lack of Contextualization for Local Environments</h4>
+      <h5>Limited Emotional and Behavioral Analysis</h5>
       <p>
-        Here is a gap in the research focusing on how educational advisory systems can be tailored to local environments,
-         particularly in countries like Sri Lanka. Exploring how to incorporate regional labor market trends, cultural 
-         considerations, and available resources will make the advice more relevant and actionable for students.
+Current child safety systems primarily concentrate on basic safety measures like location tracking and incident alerts, 
+often neglecting the emotional and behavioral aspects of children. There is a significant gap in systems that can analyze children's emotional states and behaviors through non-verbal cues, such as crying or physical actions.
+ Addressing this gap could enhance caregivers' ability to respond effectively to children's needs.
       </p>
     </div>
   </div>
@@ -169,37 +193,39 @@
             <!-- Subtopic 1 -->
             <div class="subtopic">
                 <h4>Problem Overview</h4>
-                <p>In Sri Lanka, approximately 170,000 candidates qualify for higher education each year, 
-                    yet many students face significant challenges in making informed educational choices.
-                     The prevalent reliance on subjective recommendations often leads to a misalignment between students'
-                      interests and their educational paths, contributing to approximately 30% of students changing their 
-                      majors or dropping out within the first year. Furthermore, nearly 70% of students are unaware of 
-                      available scholarships and financial aid options, which can significantly impact their ability 
-                      to pursue higher education. Additionally, the lack of access to reliable career guidance exacerbates 
-                      the issue, as many students lack the tools necessary to align their academic pursuits with market demands. 
-                      These challenges underscore the urgent need for a comprehensive, data-driven solution that empowers students
-                       to navigate their educational and career paths effectively</p>
+                <p>In modern childcare and educational environments, 
+                  ensuring the safety and well-being of children is a significant 
+                  challenge. Traditional supervision methods, primarily reliant on caregivers
+                   and educators, often fall short in dynamic settings where multiple children require attention. 
+                   This oversight can lead to serious incidents, such as unnoticed falls or behavioral issues, 
+                   which may affect children's immediate safety and long-term development. Additionally, existing safety technologies typically focus on basic measures like location tracking, neglecting crucial elements such as emotional state detection and behavioral analysis. As a result, caregivers 
+                  lack the tools necessary for timely intervention, further exacerbating the risk of harm.</p>
             
             </div>
         
             <!-- Subtopic 2 -->
             <div class="subtopic">
                 <h4>Proposed Solution</h4>
-                <p>To address these challenges, we propose developing an AI-driven higher education and career advisory
-                     platform tailored for Sri Lankan students. The platform will utilize Graph Neural Networks (GNN) for course 
-                     recommendations, analyzing relationships between student preferences and available programs to deliver
-                      personalized options. For career advice, we will implement Recurrent Neural Networks (RNN) to evaluate 
-                      students' skills and interests, providing tailored career pathway suggestions based on real-time labor 
-                      market trends. To assist with scholarship and financial aid guidance, the platform will utilize a Retrieval-Augmented 
-                      Generation (RAG) approach with LangChain. This enables dynamic retrieval
-                       and synthesis of information from a comprehensive database of scholarships, financial aid options, and eligibility 
-                       criteria. By combining traditional data retrieval and generative AI,
-                       the platform will provide contextually relevant, up-to-date responses to students'inquiries.Additionally, the 
-                       platform will include a mock aptitude test feature that leverages 
-                      Optical Character Recognition (OCR) technology to assess student readiness and improve test-taking skills. By
-                       integrating these advanced technologies, the platform aims to empower students to make informed decisions, 
-                       aligning their educational choices with personal aspirations and enhancing their chances of success in higher 
-                       education and future careers.</p>
+                <p>To address these challenges, we propose the development of a 
+                  comprehensive smart surveillance system that integrates advanced technologies 
+                  to enhance child safety in educational settings. This system will utilize Internet of Things (IoT)
+                   devices and machine learning (ML) algorithms to monitor and analyze children's 
+                   vocalizations and behaviors in real time. By implementing sound sensors and deep 
+                   learning models, the system will classify different cry patterns, enabling caregivers 
+                   to prioritize responses 
+                  based on children's needs, such as hunger or discomfort.</p>
+
+                  <p>In addition to vocalization analysis, the system will
+                     leverage computer vision techniques 
+                    to monitor physical movements and behaviors through video feeds 
+                    from cameras in classrooms and play areas. This will allow for the immediate 
+                    detection of critical events like falls or altercations, alerting caregivers for 
+                    timely intervention.</p>
+
+                    <p>Moreover, the system will facilitate transparent communication 
+                      between caregivers and parents by providing real-time updates via mobile notifications, 
+                      fostering trust and reassurance regarding children's safety. 
+                      By combining these advanced technologies into a unified platform, our solution aims to empower caregivers with the tools necessary for proactive monitoring and intervention, ultimately enhancing the safety and quality of care for children in educational environments.</p>
                
             </div>
         </div>
@@ -215,17 +241,15 @@
             <div
               class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
             >
-              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+              <div class="circle font-weight-bold"><i class="fa fa-child"></i></div>
             </div>
             <div class="col-6">
-              <h4>Personalized University Course Recommendation</h4>
+              <h4>Child mobility detection Child missing alert</h4>
               <p style="text-align: justify">
-                The first objective is to develop a personalized course
-                recommendation system utilizing Graph Neural Networks (GNNs), to
-                match Sri Lankan students with higher education courses based on
-                their educational background, preferences, and career goals.
-                This system aims to assist students in making well-informed
-                decisions about their university education.
+                Keeping kids safe in classrooms and outdoors is important. 
+                There is a camera systems that track children. If a child goes missing, this system tells the teacher right away, 
+                so they can pay attention to that. It makes classrooms safer and helps teachers take care of kids better.
+
               </p>
             </div>
           </div>
@@ -247,21 +271,19 @@
           >
             <div class="col-6 text-right">
               <h4>
-                Generative AI chatbot for Scholarship and Student Loans Guidance
+                fall detection in the learning environment
               </h4>
               <p style="text-align: justify">
-                The second objective is to build a Retrieval-Augmented
-                Generation (RAG) chatbot that helps Sri Lankan students easily
-                access relevant and accurate information regarding financial
-                aid, scholarships, and student loan opportunities. This chatbot
-                will bridge the information gap in financial support, promoting
-                greater equity in education.
+                Keeping kids safe while they play outside is really important because falls can hurt them and affect their learning. 
+                Teachers watch over the students, but they can’t see everything all the time, especially when they're busy helping other kids or explaining things. 
+                This means that some accidents might happen without anyone noticing until it's too late. 
+                It's essential to find ways to protect kids from falls and keep them safe.
               </p>
             </div>
             <div
               class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
             >
-              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+              <div class="circle font-weight-bold"><i class="fa fa-child"></i></div>
             </div>
           </div>
           <!-- Path Line -->
@@ -281,17 +303,14 @@
             <div
               class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
             >
-              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div> 
+              <div class="circle font-weight-bold"><i class="fa fa-child"></i></div> 
             </div>
             <div class="col-6">
-              <h4>Career Guidance System</h4>
+              <h4>Detecting unusual behavior using voice recognition</h4>
               <p style="text-align: justify">
-                The third objective is to create an AI-based career guidance
-                system designed to help Sri Lankan students explore career paths
-                within the IT sector. This system will employ Recurrent Neural
-                Networks (RNN) to recommend personalized career options based on
-                students' qualifications and industry requirements, aiming to
-                enhance students' career decision-making process.
+                Aims to analyze children's vocalizations in real-time.
+                 By capturing cry patterns through sound sensors and deploying edge computing algorithms, it will identify emotional states, distinguish cry types, and enhance caregivers' responsiveness, revolutionizing childcare practices for safety and well-being
+
               </p>
             </div>
           </div>
@@ -314,22 +333,20 @@
           >
             <div class="col-6 text-right">
               <h4>
-                Generating Mock Aptitude Test Questions for Specific Courses
+                Monitor attention levels in the class rooms and facial expression levels of the children
               </h4>
               <p style="text-align: justify">
-                The fourth objective is to develop a system for generating
-                customized mock aptitude test questions, based on historical
-                entrance exam data, using Optical Character Recognition (OCR)
-                and fine-tuning the ChatGPT model. This system will assist
-                students in preparing for exams by providing practice questions
-                tailored to their specific course interests and cognitive
-                abilities.
+                It is important to keep track of all children to get a understanding about them. 
+                Their attentiveness and their emotions in the class room environment are good parameters to get a idea of them .
+                 So here we can track the attentiveness and emotions of children and evaluate them individually to get a idea of them. 
+                 By this teacher can identify less attentive children and pay more attention on them. 
+                 And if a child is frequently detected with certain less emotional score , teachers can contact parents and make their attention on this. 
               </p>
             </div>
             <div
               class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
             >
-             <div class="circle font-weight-bold"><i class="fa fa-star"></i></div> 
+             <div class="circle font-weight-bolder"><i class="fa fa-child"></i></div> 
             </div>
           </div>
           <!-- Path Line -->
@@ -365,33 +382,33 @@
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/react.png" alt="React" />
+                <img src="Images/pycharm.jpeg" alt="pycharm" />
               </div>
-              <p>React</p>
+              <p>Pycharm</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/PyTorch.png" alt="PyTorch" />
+                <img src="Images/react native.png" alt="react native" />
               </div>
-              <p>PyTorch</p>
+              <p>React Native</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/Django.png" alt="Django" />
+                <img src="Images/yologo.png" alt="yolo" />
               </div>
-              <p>Django</p>
+              <p>YOLO</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/mongo.jpg" alt="MongoDB" />
+                <img src="Images/roboflow.png" alt="roboflow" />
               </div>
-              <p>MongoDB</p>
+              <p>RoboFlow</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/Vite.js.png" alt="Vite.js" />
+                <img src="Images/firebase.png" alt="Vite.js" />
               </div>
-              <p>Vite.js</p>
+              <p>Firebase</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
@@ -407,9 +424,9 @@
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/Docker.png" alt="Docker" />
+                <img src="Images/android studio.png" alt="Docker" />
               </div>
-              <p>Docker</p>
+              <p>Android Studio</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
@@ -419,15 +436,15 @@
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/Bootstrap.png" alt="Google map API" />
+                <img src="Images/raspberry.png" alt="raspberry" />
               </div>
-              <p>Bootstrap</p>
+              <p>Raspberry pi</p>
             </div>
             <div class="col-md-2 col-sm-4 col-6 mb-5">
               <div class="avatar">
-                <img src="Images/jwt.png" alt="Jwt" />
+                <img src="Images/opencv.png" alt="opencv" />
               </div>
-              <p>Jwt</p>
+              <p>Open CV</p>
             </div>
           </div>
         </div>
@@ -744,7 +761,7 @@
           <h3>Project Proposal</h3>
           <p>Submitted on: <span>2024/03/22</span></p>
           <p>Individual</p>
-          <a href="https://drive.google.com/drive/folders/1WWL1bAaCwsO4qgmALdH5PaLUHAZH9wjY?usp=sharing" class="download-link">Download</a>
+          <a href="https://drive.google.com/drive/folders/1nH0g4Rn2Z5_a8a4yD9SyXrSgpl_6e0__?usp=sharing" class="download-link">Download</a>
         </div>
 
         <!-- Status Documents I -->
@@ -752,7 +769,7 @@
           <h3>Status Documents I</h3>
           <p>Submitted on: <span>2024/07/05</span></p>
           <p>Individual</p>
-          <a href="https://drive.google.com/drive/folders/1pvNO_dT_DjaFurziXWSbYdc2ZZRqtcc1?usp=sharing" class="download-link">Download</a>
+          <a href="https://drive.google.com/drive/folders/16KxzqrSwMNjFCy6FsGQ3HHyNImKZ5L-7?usp=sharing" class="download-link">Download</a>
         </div>
 
         <!-- Status Documents II -->
@@ -764,11 +781,11 @@
         </div>
 
         <!-- Research Paper -->
-        <div class="document-card pending">
+        <div class="document-card">
           <h3>Research Paper</h3>
-          <p>Yet to be submitted, link will be updated soon.</p>
+          <p>Submitted on: <span>2024/09/11</p>
           <p>Group</p>
-          <a href="#" class="download-link disabled">Download</a>
+          <a href="https://drive.google.com/drive/folders/1bFkZADNLwY6ymJ9TE8J-h-6vPTzCCTk5?usp=sharing" class="download-link">Download</a>
         </div>
 
         <!-- Final Report -->
@@ -778,15 +795,15 @@
           <p>Group</p>
           <a href="#" class="download-link">Download</a>
           <p>Individual</p>
-          <a href="https://drive.google.com/drive/folders/1mU0IbAiWDIsVPgtd-bM0sdJjkfzZD-6f?usp=sharing" class="download-link">Download</a>
+          <a href="https://drive.google.com/drive/folders/1kxdkjAG2JBqVnOA6oPQsz955nmpSOwJ5?usp=sharing" class="download-link">Download</a>
         </div>
 
         <!-- Poster -->
-        <div class="document-card">
+        <div class="document-card pending">
           <h3>Poster</h3>
           <p>Submitted on: <span>2024/10/13</span></p>
           <p>Group</p>
-          <a href="#" class="download-link">Download</a>
+          <a href="#" class="download-link disabled">Download</a>
         </div>
       </div>
 
@@ -801,7 +818,7 @@
           <h3>Project Proposal</h3>
           <p>Submitted on: <span>2024/03/14</span></p>
           <p>Group</p>
-          <a href="https://drive.google.com/file/d/1_vqCtMD7-F7IZLu6kwZ3oSI-vMgKhv1K/view?usp=sharing" class="download-link">Download</a>
+          <a href="https://drive.google.com/drive/folders/1Oz9LI2pPr5lYjsKJTs5saYuISHBxwuqi?usp=sharing" class="download-link">Download</a>
         </div>
 
         <!-- Progress Presentation I -->
@@ -817,7 +834,7 @@
           <h3>Progress Presentation II</h3>
           <p>Submitted on: <span>2024/10/18</span></p>
           <p>Group</p>
-          <a href="https://drive.google.com/file/d/1IM5Vbrmshjge5x0PivZyL42W0wupkkiR/view?usp=sharing" class="download-link">Download</a>
+          <a href="https://drive.google.com/drive/folders/1bMyMPWkHOn4CpuTYrUkuFxnc0kqMY1ZE?usp=sharing" class="download-link">Download</a>
         </div>
 
         <!-- Final Presentation -->
@@ -842,41 +859,41 @@
       
           <div class="team-card">
 
-            <img src="Images/Picture1.jpg" alt="Samantha Thelijjagoda" />
+            <center><img src="Images/samantha.jpg" alt="Samantha Thelijjagoda" /></center>
 
           
-            <h3>Prof. Samantha Thelijjagoda</h3>
+           <h3>Prof. Samantha Thelijjagoda</h3>
             <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px; ;">Supervisor</strong></p>
             <p>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
             <p><strong>Department</strong><br/>Computer Systems Engineering</p>
+
            
             <div class="contact">
-              <a href="mailto:samantha.t@sliit.lk" class="email-icon"><strong>E-Mail</strong></a>
-
+              <a href="mailto:samantha.t@sliit.lk" class="email-icon"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/samantha-thelijjagoda-84342037/" class="email-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
       
           <div class="team-card">
 
-            <img src="Images/Picture2.jpg" alt="Kapila Dissanayaka" />
-            <h3>Dr. Kapila Dissanayaka</h3>
+           <center> <img src="Images/Dr__Dharshana.jpg" alt="Dr Dharshana" /></center>
+            <h3>Dr. Dharshana Kasthurirathna</h3>
             <p><strong  style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Co Supervisor</strong></p>
           <p>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
             <p><strong>Department</strong><br/>Software Engineering</p>
             <div class="contact">
-              <a href="mailto:kapila.d@sliit.lk" class="email-icon"><strong>E-Mail</strong></a>
+              <a href="mailto:dharshana.k@sliit.lk" class="email-icon"><i class="fa fa-envelope"></i></a>
+               <a href="https://www.linkedin.com/in/dharshana-kasthurirathna-a4a3275/" class="email-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
           <div class="team-card">
-            <img src="Images/Picture3.jpg" alt="Kapila Dissanayaka" />
-            <h3>Prof. Indrani Withanawasam</h3>
+            <center><img src="Images/Miss_Nishadi.jpg" alt="Mrs Nishadi" /></center>
+            <h3>Mrs.Nishadi jayarathna</h3>
             <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">External Supervisor</strong> </p>
-            <p>University of Ruhuna ,Sri Lanka</p>
-            <p><strong>Department</strong><br/>Computer Systems Engineering</p>
+            <p><strong>Principle</strong>
+             <p>Shelanta Kids Pre School & Day Care Wackwella</p>
 
-            <div class="contact">
-              <a href="mailto:kapila.d@sliit.lk" class="email-icon"><strong>E-Mail</strong></a>
-            </div>
+            
           </div>
       
         </div><br/><br/>
@@ -884,47 +901,51 @@
        <!--    Team Members -->
         <div class="team members">
           <div class="team-card">
-            <img src="Images/Picture4.jpg" alt="S.V Dewasurendra" />
-            <h3>S.V Dewasurendra</h3>
+            <center><img src="Images/amisha.png" alt="Prathyanga S.P.B.A" /></center>
+            <h3>Prathyanga S.P.B.A</h3>
             <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Leader</strong></p>
             <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
             <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
             
             <div class="contact">
-              <a href="mailto:sasith1023@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+              <a href="mailto:sasith1023@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+               <a href="https://www.linkedin.com/in/amisha-prathyanga/" class="email-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
       
           <div class="team-card">
-            <img src="Images/Picture7.jpg" alt="Udunuwara U.K.C" />
-            <h3>Udunuwara U.K.C</h3>
+            <center><img src="Images/pasan.jpg" style="border-radius: 100px;" alt="Chamikara K.L.P" /></center>
+            <h3>Chamikara K.L.P</h3>
             <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Member</strong></p>
             <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
             <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
             <div class="contact">
-              <a href="mailto:udunuwaraukc@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+              <a href="mailto:udunuwaraukc@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+               <a href="https://www.linkedin.com/in/pasan-chamikara/" class="email-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
       
           <div class="team-card">
-            <img src="Images/Picture6.jpg" alt="Wanniarachchi T.T" />
-            <h3>Wanniarachchi T.T</h3>
+           <center><img src="Images/pasindu.png" alt="Mrs Nishadi" /></center>
+            <h3>Wimalagunasekara P.S.</h3>
             <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Member</strong></p>
             <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
             <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
             <div class="contact">
-              <a href="mailto:thewunitw@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+              <a href="mailto:thewunitw@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+               <a href="https://www.linkedin.com/in/pasindu-shyaminda/" class="email-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
       
           <div class="team-card">
-            <img src="Images/Picture5.jpg" alt="Panditharathne P.D.R.L" />
-            <h3>Panditharathne P.D.R.L</h3>
+           <center><img src="Images/sachin.png" alt="Mrs Nishadi" /></center>
+            <h3>Sachin Lakshan H.G.</h3>
             <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Member</strong></p>
             <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
             <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
             <div class="contact">
-              <a href="mailto:rashmipanditharathne@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+              <a href="mailto:rashmipanditharathne@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+               <a href="https://www.linkedin.com/in/sachinl98/" class="email-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
@@ -933,7 +954,7 @@
 
 
     <!-- Contact Us Section: Website Link -->
-    <section class="contact-us" id="contact-us">
+    <!-- <section class="contact-us" id="contact-us">
       <div class="website-link">
         <a href="https://www.example.com" target="_blank" class="website-card">
           <div class="website-logo-container">
@@ -947,7 +968,7 @@
           </div>
         </a>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer Section with Contact Form -->
     <footer class="contact-footer" id="footer">
@@ -982,11 +1003,12 @@
           <h3>Contact Details</h3>
           <p>
             For further queries please reach us at
-            <a href="mailto:aspiralanka@gmail.com">aspiralanka@gmail.com</a>.
+            <a href=""></a>.
           </p>
           <p>Hope this project helped you in some manner. Thank you!</p>
-          <p><strong>- Team Aspira -RP-125</strong></p>
-          <img class="footer_Logo" src="logo.png" width="100%" height="100%">
+          <p><strong>- Team KidzCare -RP-126</strong></p>
+          <img class="footer_Logo" src="Images/logo.png" width="100%" height="100%">
+
         </div>
       </div>
     </footer>
