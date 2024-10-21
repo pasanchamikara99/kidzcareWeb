@@ -1,3 +1,8 @@
+:root  {
+  --main-bg-color: rgb(75, 0, 112);
+  --secondary-bg-color: rgb(93, 0, 140);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +19,7 @@ body {
   font-style: italic;
   font-size: 48px;
   /* You can adjust the size as needed */
+
   color: #067d56;
   /* Color (optional, feel free to adjust) */
   font-family: "Apple Chancery", cursive;
@@ -23,14 +29,16 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 60px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   z-index: 1000;
   transition: background-color 0.3s ease;
+
   background-color: #067d56;
+
   opacity: 56.4;
   margin: 0;
 }
@@ -41,9 +49,9 @@ body {
 }
 
 .logo img {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+
+
+  height: 50px;
 }
 
 .nav-links {
@@ -57,12 +65,12 @@ body {
   color: white;
   font-size: 18px;
   transition: color 0.3s ease;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .nav-links a:hover {
-  color: #fbd607;
-  text-decoration: none;/
+  color: #ff0000;
+  text-decoration: none;
 }
 
 /* Hamburger Menu */
@@ -138,7 +146,7 @@ body {
   text-align: center;
   z-index: 2;
   /* Bring the text in front of the overlay */
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 20px;
   animation: fadeIn 3s ease-in-out;
   /* Fade-in effect for the entire text */
@@ -220,7 +228,7 @@ h1 {
 }
 
 .research-content {
-  max-width: 800px;
+  max-width: 1000px;
   /* Limiting width for better readability */
   margin: 0 auto;
   /* Centering content */
@@ -258,8 +266,9 @@ h1 {
 }
 
 /* Header styles for research problem */
-.research-item h3 {
-  font-size: 1.8em;
+.research-item h2 {
+  text-align: center;
+  font-size: 2em;
   /* Larger font size for main header */
   color: #14b77b;
   /* Darker text color */
@@ -269,9 +278,9 @@ h1 {
 
 /* Description paragraph for research problem */
 .research-item p {
-  font-size: 1.1em;
+  font-size: 16px;
   /* Standard font size for description */
-  color: #34495e;
+  color: #555;
   /* Darker gray color */
   line-height: 1.6;
   /* Line height for readability */
@@ -279,7 +288,7 @@ h1 {
   /* Justify text */
   margin-bottom: 20px;
   /* Spacing below the paragraph */
-  max-width: 800px;
+  max-width: 1000px;
   /* Limiting width for better readability */
   margin-left: auto;
   /* Centering the paragraph */
@@ -372,7 +381,7 @@ h1 {
   /* Space between items to push the image down */
   align-items: flex-start;
   /* Align items to the start (left) */
-  max-width: 800px;
+  max-width: 1000px;
   /* Limit the maximum width */
   margin: 0 auto;
   /* Center the container */
@@ -407,14 +416,14 @@ h1 {
 }
 
 .references {
-  font-size: 8px;
+  font-size: 6px;
   /* Make the references smaller */
   margin-top: 10px;
   /* Space above references */
 }
 
 /* Section Title Styling */
-.section-title {
+/* .section-title {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -429,7 +438,7 @@ h1 {
 .section-title p {
   font-size: 18px;
   color: #555;
-}
+} */
 
 /* Research Items Styling */
 .research-items {
@@ -468,12 +477,12 @@ h1 {
 }
 
 /* Research Item Description */
-.research-item p {
+/* .research-item p {
   font-size: 16px;
   color: #555;
   line-height: 1.6;
   text-align: justify;
-}
+} */
 
 /* Milestones Section */
 /* Milestones Section */
@@ -487,7 +496,7 @@ h1 {
 }
 
 /* Section Title Styling */
-.section-title {
+/* .section-title {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 10px;
@@ -502,7 +511,7 @@ h1 {
 .section-title p {
   font-size: 18px;
   color: #555;
-}
+} */
 
 /* Timeline Layout */
 .timeline {
@@ -602,7 +611,7 @@ h1 {
 }
 
 /* Section Title Styling */
-.section-title {
+/* .section-title {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -616,7 +625,7 @@ h1 {
 .section-title p {
   font-size: 18px;
   color: #555;
-}
+} */
 
 /* Documents Section */
 .documents {
@@ -627,7 +636,7 @@ h1 {
 }
 
 /* Section Title Styling */
-.section-title {
+/* .section-title {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -641,7 +650,7 @@ h1 {
 .section-title p {
   font-size: 18px;
   color: #555;
-}
+} */
 
 /* Document List Layout */
 .documents-list {
@@ -670,7 +679,7 @@ h1 {
 
 .document-card h3 {
   font-size: 22px;
-  color: #001f3f;
+  color: var(--main-bg-color);
   margin-bottom: 10px;
 }
 
@@ -683,7 +692,9 @@ h1 {
 .document-card .download-link {
   display: inline-block;
   padding: 10px 20px;
+
   background-color: #067d56;
+
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -722,7 +733,7 @@ h1 {
 }
 
 /* Section Title Styling */
-.section-title {
+/* .section-title {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -736,7 +747,7 @@ h1 {
 .section-title p {
   font-size: 18px;
   color: #555;
-}
+} */
 
 /* Team Section Layout */
 .team {
@@ -870,7 +881,7 @@ h1 {
 /* Contact Us Section */
 .contact-us {
   padding: 60px 0;
-  background: linear-gradient(135deg, #001f3f, #003366, #4682b4);
+  background: linear-gradient(135deg, var(--main-bg-color), #003366, #4682b4);
   color: white;
   text-align: center;
   width: 100%;
@@ -915,17 +926,13 @@ h1 {
 /* Logo Section with Ring */
 .website-logo {
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
   object-fit: cover;
   transition: transform 0.3s ease;
-  box-shadow: 0 0 0 6px rgba(28, 0, 120, 0.6);
   /* Adding the ring effect */
 }
 
 .website-logo:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 0 8px rgba(28, 0, 120, 0.8);
   /* Increase ring size on hover */
 }
 
@@ -955,7 +962,7 @@ h1 {
     position: absolute;
     top: 60px;
     left: 0px;
-    background-color: #001f3f;
+    background-color: var(--main-bg-color);
     width: 100%;
     /* Adjust width to fit screen */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -1139,7 +1146,7 @@ h1 {
   }
 
   /* Section Title Styling */
-  .section-title {
+  /* .section-title {
     text-align: center;
     margin-bottom: 40px;
   }
@@ -1153,7 +1160,7 @@ h1 {
   .section-title p {
     font-size: 18px;
     color: #555;
-  }
+  } */
 
   /* Team Section Layout */
   .team {
@@ -1407,7 +1414,9 @@ h1 {
 /* Footer Section */
 .contact-footer {
   padding: 60px 20px;
+
   background-color: #067d56;
+
   color: white;
 }
 
