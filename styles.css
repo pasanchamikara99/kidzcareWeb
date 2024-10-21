@@ -14,7 +14,7 @@ body {
   font-style: italic;
   font-size: 48px;
   /* You can adjust the size as needed */
-  color: #14b77b;
+  color: #067d56;
   /* Color (optional, feel free to adjust) */
   font-family: 'Kablammo', cursive;
 }
@@ -30,7 +30,7 @@ body {
   padding: 0 20px;
   z-index: 1000;
   transition: background-color 0.3s ease;
-  background-color: #001f3f;
+  background-color: #067d56;
   opacity: 56.4;
   margin: 0;
 }
@@ -41,8 +41,8 @@ body {
 }
 
 .logo img {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
@@ -207,7 +207,7 @@ h1 {
 .section-title h2 {
   font-size: 2em;
   /* Large font size for the title */
-  color: #333;
+  color: #14b77b;
   /* Dark text color */
 }
 
@@ -260,7 +260,7 @@ h1 {
 .research-item h3 {
   font-size: 1.8em;
   /* Larger font size for main header */
-  color: #2c3e50;
+  color: #14b77b;
   /* Darker text color */
   margin-bottom: 15px;
   /* Space below the header */
@@ -306,7 +306,7 @@ h1 {
 .subtopic h4 {
   font-size: 1.5em;
   /* Slightly smaller than the main header */
-  color: #2980b9;
+  color: #14b77b;
   /* Blue color for subtopic headers */
   margin-bottom: 10px;
   /* Space below the subtopic header */
@@ -324,7 +324,7 @@ h1 {
 
 .gap {
   flex: 1;
-  border: 3px solid #2980b9;
+  border: 3px solid #14b77b;
   border-radius: 8px;
   padding: 15px;
   background-color: #f0faff;
@@ -345,9 +345,9 @@ h1 {
   margin-top: 10px;
 }
 
-.gap h4 {
+.gap h5 {
   margin-top: 0;
-  color: #2980b9;
+  color: #067d56;
   text-align: center;
 }
 
@@ -421,7 +421,7 @@ h1 {
 
 .section-title h2 {
   font-size: 40px;
-  color: #1c0078;
+  color: #14b77b;
   margin-bottom: 10px;
 }
 
@@ -454,7 +454,7 @@ h1 {
 /* Research Item Heading */
 .research-item h3 {
   font-size: 28px;
-  color: #1c0078;
+  color: #14b77b;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -494,7 +494,7 @@ h1 {
 
 .section-title h2 {
   font-size: 36px;
-  color: #1c0078;
+  color: #14b77b;
   margin-bottom: 10px;
 }
 
@@ -541,7 +541,7 @@ h1 {
   flex: 1;
   max-width: 200px;
   font-size: 18px;
-  color: #1c0078;
+  color: #067d56;
   font-weight: bold;
   position: relative;
   padding-top: 20px;
@@ -574,7 +574,7 @@ h1 {
   top: 20px;
   width: 24px;
   height: 24px;
-  background-color: #2980b9;
+  background-color: #067d56;
   border-radius: 50%;
   z-index: 1;
   margin: 0;
@@ -608,7 +608,7 @@ h1 {
 
 .section-title h2 {
   font-size: 36px;
-  color: #1c0078;
+  color: #14b77b;
   margin-bottom: 10px;
 }
 
@@ -633,7 +633,7 @@ h1 {
 
 .section-title h2 {
   font-size: 36px;
-  color: #1c0078;
+  color: #14b77b;
   margin-bottom: 10px;
 }
 
@@ -682,7 +682,7 @@ h1 {
 .document-card .download-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #001f3f;
+  background-color: #067d56;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -728,7 +728,7 @@ h1 {
 
 .section-title h2 {
   font-size: 36px;
-  color: #1c0078;
+  color: #14b77b;
   margin-bottom: 10px;
 }
 
@@ -793,7 +793,7 @@ h1 {
   height: 150px;
   object-fit: cover;
   margin-bottom: 20px;
-  border: 1px solid #1c0078;
+  /* border: 1px solid #1c0078; */
 }
 
 /* Team Card Text */
@@ -1126,7 +1126,7 @@ h1 {
 
   .section-title h2 {
     font-size: 36px;
-    color: #1c0078;
+    color: #14b77b;
     margin-bottom: 10px;
   }
 
@@ -1387,7 +1387,7 @@ h1 {
 /* Footer Section */
 .contact-footer {
   padding: 60px 20px;
-  background-color: #001f3f;
+  background-color: #067d56;
   color: white;
 }
 
@@ -1408,7 +1408,7 @@ h1 {
 .contact-form h3 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #2980b9;
+  color: #0ce257;
 }
 
 .form-group {
@@ -1442,7 +1442,7 @@ h1 {
 }
 
 .submit-button {
-  background-color: #2980b9;
+  background-color: #0ce257;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -1465,7 +1465,7 @@ h1 {
 .contact-details h3 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #2980b9;
+  color: #0ce257;
 }
 
 .contact-details p {
@@ -1526,7 +1526,7 @@ h1 {
 .connecting-lines.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #0320ff;
+  border-left: 3px solid #067d56;
   z-index: 1;
 }
 
@@ -1553,7 +1553,7 @@ h1 {
 }
 
 .timeline_s hr {
-  border-top: 3px solid #0320ff;
+  border-top: 3px solid #067d56;
   margin: 0;
   position: relative;
   top: 17px;
@@ -1566,7 +1566,7 @@ h1 {
 }
 
 .timeline_s .corner {
-  border: 3px solid #0320ff;
+  border: 3px solid #067d56;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -1600,8 +1600,9 @@ h1 {
   width: 800px;
 }
 
-.circle .fa-star {
-  color: #ffd700;
+.circle .fa-child {
+  color: #bbecda;
+  font-size: 25px;
   /* Gold color for the star */
 }
 
@@ -1613,7 +1614,7 @@ h1 {
   /* Adjust as needed */
   height: 40px;
   /* Adjust as needed */
-  background-color: #000000;
+  background-color: #067d56;
   /* Customize the background color */
   border-radius: 50%;
   /* Makes it a circle */
