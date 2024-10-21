@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aspira</title>
+    <link rel="icon" href="./logInImage.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Popper.js (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar">
+        <div class="logo">
+          <img src="logInImage.png" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+
+          <li><a href="#home">Home</a></li>
+          <li><a href="#research-overview">Research Overview</a></li>
+          <li><a href="#Methodology">Project Scope</a></li>
+          <li><a href="#milestones">Milestones</a></li>
+          <li><a href="#documents">Downloads</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+
+        </ul>
+        <div class="hamburger-menu" id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const hamburger = document.getElementById("hamburger-menu");
+          const navLinks = document.querySelector(".nav-links");
+      
+          hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+            hamburger.classList.toggle("active");
+          });
+        });
+      </script>
+      
+      
+      
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="aspira-text">Aspira</h1>
+          <h1>CUTTING-EDGE AI-DRIVEN HIGHER EDUCATIONAL AND CAREER ADVISORY PLATFORM</h1>
+        </div>
+      </section>
+      
+
+
+    <!-- Research Overview Section -->
+<section class="research-overview" id="research-overview">
+    <div class="section-title">
+      <h2>Research Overview</h2>
+      
+    </div>
+    <div class="research-content">
+      <p>
+        In Sri Lanka, approximately 170,000 candidates qualify for higher education each year, yet many choose their courses
+         based on biased recommendations from family and friends. This reliance on subjective advice often leads to misaligned 
+         educational and career paths, adversely affecting students' academic success and professional fulfillment. To address this 
+         issue, there is a pressing need for an innovative solution that empowers students to make informed decisions about their futures.
+          This solution should encompass not only course selection but also comprehensive career advisory services, scholarship
+           opportunities, and financial aid guidance.
+      </p>
+      <p>
+        To tackle these challenges, we propose developing an AI-driven higher education and career advisory platform tailored for Sri Lankan
+         students. This platform will utilize advanced algorithms to analyze students' interests, strengths, and market trends, providing
+          personalized recommendations for courses, career paths, scholarship opportunities, and financial aid options. Additionally,
+           the platform will offer resources for aptitude test preparation to help students enhance their skills and increase their
+            chances of success in higher education. By fostering informed decision-making and empowering students, this project aims
+             to align educational choices with individual aspirations and potential career success.
+      </p>
+    </div>
+  </section>
+  
+
+  <section class="lit" id="lit"> 
+    <div class="research-item">
+        <h3>Literature Survey</h3><br/>
+     
+        <div class="content-container">
+
+            <img src="Images/lit.jpg" alt="Relevant Image" class="left-image">
+
+            <div class="text-references">
+               
+                <p>
+                    AI-driven platforms are significantly transforming educational guidance by offering personalized 
+                    course recommendations and career advice, helping students make informed decisions that align with
+                     their academic and career goals. Graph Neural Networks (GNNs) have been employed in various regions 
+                     to analyze student preferences, backgrounds, and interests, thereby recommending suitable academic programs.
+                      This data-driven approach has proven effective in reducing dropout rates by better aligning students' choices 
+                      with their future aspirations, ensuring a more tailored educational experience [1], [2]. However, in Sri Lanka, 
+                      the adoption of such advanced AI technologies remains limited. Many students continue to rely on subjective 
+                      recommendations, leading to mismatches between their interests and academic paths, further underscoring the need 
+                      for localized AI-driven educational platforms.
+                </p>
+                <p>In addition to course guidance, AI technologies like Recurrent Neural Networks (RNNs) are playing a crucial role 
+                    in career advisory systems. By leveraging real-time labor market data, RNNs provide students with insights into 
+                    relevant career paths that align with their skills and the latest job market demands [3]. Despite their success 
+                    in other regions, tools like these are yet to be widely implemented in Sri Lanka. Furthermore, the use of
+                     Retrieval-Augmented Generation (RAG) models to provide real-time information on scholarships and financial 
+                     aid is gaining momentum globally, but its potential remains underutilized locally [4]. Lastly, Optical Character
+                      Recognition (OCR) technology, which has been used to automate aptitude testing and improve student readiness for 
+                      standardized assessments, is also underexplored in Sri Lanka’s educational systems. By integrating these 
+                      technologies, Sri Lankan students could significantly benefit from enhanced decision-making capabilities and 
+                      improved access to higher education opportunities.</p>
+                    <div class="references" style="font-size: 8px; margin-top: 10px; color: black;">
+                    <h5>References</h5>
+                    <p>[1] S. A. Soliman, "AI in educational systems: A personalized learning approach," Journal of AI Research, vol. 12, pp. 45-59, 2023.</p>
+                    <p>[2] Y. Lee et al., "Graph neural networks for personalized course recommendations," IEEE Transactions on Educational Technologies, vol. 18, no. 4, pp. 402-415, 2022.</p>
+                    <p>[3] J. Wang and P. Li, "Predictive career guidance using recurrent neural networks," Computers in Education, vol. 77, pp. 155-162, 2021</p>
+                    <p>[4] A. Roberts et al., "Implementing RAG models for dynamic financial aid advice," AI and Society, vol. 15, no. 2, pp. 203-215, 2023</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+    
+    
+    
+        <div class="research-item">
+          <h3>Research Gap</h3><br/>
+          <h6>Following areas are the research gaps found in most of the recent researches.</h6><br/>
+   <div class="gaps">
+    <div class="gap">
+      <h4>Integration of Diverse AI Technologies</h4>
+      <p>
+        While existing studies explore the efficacy of individual technologies like GNN, 
+        GNN,RNN,RAG,OCR in educational settings, there is a lack of research on the integration 
+        of these technologies within a single platform. Understanding how these systems
+         can work synergistically to provide holistic recommendations tailored to Sri Lankan students’ needs remains unexplored.
+      </p>
+    </div>
+    
+    <div class="gap">
+      <h4>Limited Personalization in Existing Systems</h4>
+      <p>
+        Educational advisory systems frequently offer generic recommendations that overlook students' diverse backgrounds and 
+        evolving goals. Implementing data-driven, personalized solutions can empower students to make informed choices aligned 
+        with their unique aspirations and preferences.
+      </p>
+    </div>
+
+    <div class="gap">
+      <h4>Lack of Contextualization for Local Environments</h4>
+      <p>
+        Here is a gap in the research focusing on how educational advisory systems can be tailored to local environments,
+         particularly in countries like Sri Lanka. Exploring how to incorporate regional labor market trends, cultural 
+         considerations, and available resources will make the advice more relevant and actionable for students.
+      </p>
+    </div>
+  </div>
+        </div>
+
+
+
+        <div class="research-item">
+            <h3>Research Problem & Solution</h3>
+         
+        
+            <!-- Subtopic 1 -->
+            <div class="subtopic">
+                <h4>Problem Overview</h4>
+                <p>In Sri Lanka, approximately 170,000 candidates qualify for higher education each year, 
+                    yet many students face significant challenges in making informed educational choices.
+                     The prevalent reliance on subjective recommendations often leads to a misalignment between students'
+                      interests and their educational paths, contributing to approximately 30% of students changing their 
+                      majors or dropping out within the first year. Furthermore, nearly 70% of students are unaware of 
+                      available scholarships and financial aid options, which can significantly impact their ability 
+                      to pursue higher education. Additionally, the lack of access to reliable career guidance exacerbates 
+                      the issue, as many students lack the tools necessary to align their academic pursuits with market demands. 
+                      These challenges underscore the urgent need for a comprehensive, data-driven solution that empowers students
+                       to navigate their educational and career paths effectively</p>
+            
+            </div>
+        
+            <!-- Subtopic 2 -->
+            <div class="subtopic">
+                <h4>Proposed Solution</h4>
+                <p>To address these challenges, we propose developing an AI-driven higher education and career advisory
+                     platform tailored for Sri Lankan students. The platform will utilize Graph Neural Networks (GNN) for course 
+                     recommendations, analyzing relationships between student preferences and available programs to deliver
+                      personalized options. For career advice, we will implement Recurrent Neural Networks (RNN) to evaluate 
+                      students' skills and interests, providing tailored career pathway suggestions based on real-time labor 
+                      market trends. To assist with scholarship and financial aid guidance, the platform will utilize a Retrieval-Augmented 
+                      Generation (RAG) approach with LangChain. This enables dynamic retrieval
+                       and synthesis of information from a comprehensive database of scholarships, financial aid options, and eligibility 
+                       criteria. By combining traditional data retrieval and generative AI,
+                       the platform will provide contextually relevant, up-to-date responses to students'inquiries.Additionally, the 
+                       platform will include a mock aptitude test feature that leverages 
+                      Optical Character Recognition (OCR) technology to assess student readiness and improve test-taking skills. By
+                       integrating these advanced technologies, the platform aims to empower students to make informed decisions, 
+                       aligning their educational choices with personal aspirations and enhancing their chances of success in higher 
+                       education and future careers.</p>
+               
+            </div>
+        </div>
+        </section>
+        
+
+        <div class="research-item">
+          <h3>Research Objectives</h3><br/><br/>
+          
+
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div
+              class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+            >
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Personalized University Course Recommendation</h4>
+              <p style="text-align: justify">
+                The first objective is to develop a personalized course
+                recommendation system utilizing Graph Neural Networks (GNNs), to
+                match Sri Lankan students with higher education courses based on
+                their educational background, preferences, and career goals.
+                This system aims to assist students in making well-informed
+                decisions about their university education.
+              </p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr />
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div
+            class="row align-items-center justify-content-end connecting-lines d-flex"
+          >
+            <div class="col-6 text-right">
+              <h4>
+                Generative AI chatbot for Scholarship and Student Loans Guidance
+              </h4>
+              <p style="text-align: justify">
+                The second objective is to build a Retrieval-Augmented
+                Generation (RAG) chatbot that helps Sri Lankan students easily
+                access relevant and accurate information regarding financial
+                aid, scholarships, and student loan opportunities. This chatbot
+                will bridge the information gap in financial support, promoting
+                greater equity in education.
+              </p>
+            </div>
+            <div
+              class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+            >
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr />
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div
+              class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+            >
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div> 
+            </div>
+            <div class="col-6">
+              <h4>Career Guidance System</h4>
+              <p style="text-align: justify">
+                The third objective is to create an AI-based career guidance
+                system designed to help Sri Lankan students explore career paths
+                within the IT sector. This system will employ Recurrent Neural
+                Networks (RNN) to recommend personalized career options based on
+                students' qualifications and industry requirements, aiming to
+                enhance students' career decision-making process.
+              </p>
+            </div>
+          </div>
+          <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr />
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div
+            class="row align-items-center justify-content-end connecting-lines d-flex"
+          >
+            <div class="col-6 text-right">
+              <h4>
+                Generating Mock Aptitude Test Questions for Specific Courses
+              </h4>
+              <p style="text-align: justify">
+                The fourth objective is to develop a system for generating
+                customized mock aptitude test questions, based on historical
+                entrance exam data, using Optical Character Recognition (OCR)
+                and fine-tuning the ChatGPT model. This system will assist
+                students in preparing for exams by providing practice questions
+                tailored to their specific course interests and cognitive
+                abilities.
+              </p>
+            </div>
+            <div
+              class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+            >
+             <div class="circle font-weight-bold"><i class="fa fa-star"></i></div> 
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr />
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item" id="Methodology">
+          <h3>Methodology</h3>
+          <p>
+            This research focuses on developing an AI-based educational assistance platform for Sri Lankan students, addressing challenges in course selection, financial aid guidance, career path recommendations, and mock aptitude test generation. The platform’s course recommendation system utilizes Graph Neural Networks (GNNs) like GraphSAGE, combining student preferences and academic data to recommend university courses. A Retrieval-Augmented Generation (RAG) chatbot offers personalized financial aid advice, leveraging a Pinecone vector database for efficient information retrieval. The career guidance system, designed with Recurrent Neural Networks (RNNs), Collaborative Filtering, and Content-Based Filtering, provides tailored career paths in the IT sector. Additionally, a fine-tuned ChatGPT model generates mock law aptitude test questions using OCR for text extraction. These components work together to support students in making informed academic and career decisions, ensuring relevance, accuracy, and accessibility.
+          </p>
+        </div>
+
+        <div class="research-item">
+          <h3>Technologies Used</h3>
+         
+          <div class="row technology mt-5">
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/python.png" alt="Python" />
+              </div>
+              <p>Python</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/react.png" alt="React" />
+              </div>
+              <p>React</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/PyTorch.png" alt="PyTorch" />
+              </div>
+              <p>PyTorch</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/Django.png" alt="Django" />
+              </div>
+              <p>Django</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/mongo.jpg" alt="MongoDB" />
+              </div>
+              <p>MongoDB</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/Vite.js.png" alt="Vite.js" />
+              </div>
+              <p>Vite.js</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/googlecloud.png" alt="Google Cloud" />
+              </div>
+              <p>Google Cloud</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/vscode.png" alt="vscode" />
+              </div>
+              <p>VS Code</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/Docker.png" alt="Docker" />
+              </div>
+              <p>Docker</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/colab.png" alt="Google Colab" />
+              </div>
+              <p>Google Colab</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/Bootstrap.png" alt="Google map API" />
+              </div>
+              <p>Bootstrap</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-5">
+              <div class="avatar">
+                <img src="Images/jwt.png" alt="Jwt" />
+              </div>
+              <p>Jwt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Milestones Section -->
+
+    <!-- Milestones Section -->
+    <section class="milestones" id="milestones">
+      <div class="section-title">
+        <h2>Project Milestones</h2>
+        <p>
+          Key events that demonstrate the progress and completion of the
+          project.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">February 2024</div>
+          <div class="timeline-content">
+            <h3>Project Proposal</h3>
+            <p>
+              A Project Proposal is presented to potential sponsors or clients
+              to receive funding or get your project approved.
+            </p>
+            <p><strong>Marks Allocated: </strong>6</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 12%; background-color:#2980b9 !important"
+                aria-valuenow="12"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 6%"
+                aria-valuenow="6"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                6%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">May 2024</div>
+          <div class="timeline-content">
+            <h3>Progress Presentation I</h3>
+            <p>
+              Reviews the 50% completion status of the project, revealing any
+              gaps or inconsistencies in the design.
+            </p>
+            <p><strong>Marks Allocated: </strong>6</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 50%;background-color:#2980b9 !important"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 6%"
+                aria-valuenow="6"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                6%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">June 2024</div>
+          <div class="timeline-content">
+            <h3>Research Paper</h3>
+            <p>
+              Describes the contribution to existing knowledge, recognizing all
+              referenced work.
+            </p>
+            <p><strong>Marks Allocated: </strong>10</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 70%;background-color:#2980b9 !important"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 10%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                10%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">September 2024</div>
+          <div class="timeline-content">
+            <h3>Progress Presentation II</h3>
+            <p>
+              Reviews the 90% completion status of the project, accompanied by a
+              poster presentation.
+            </p>
+            <p><strong>Marks Allocated: </strong>18</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 90%;background-color:#2980b9 !important"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 18%"
+                aria-valuenow="18"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                18%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- August 2024 - Final Report -->
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">August 2024</div>
+          <div class="timeline-content">
+            <h3>Final Report</h3>
+            <p>
+              The final report evaluates the completed project done throughout
+              the year. Marks mentioned include individual & group reports and
+              the final report.
+            </p>
+            <p><strong>Marks Allocated: </strong>19</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 100%;background-color:#2980b9 !important"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 19%"
+                aria-valuenow="19"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                19%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- October 2024 - Website Assessment -->
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">October 2024</div>
+          <div class="timeline-content">
+            <h3>Website Assessment</h3>
+            <p>
+              The website helps to promote our research project and reveals all
+              details related to the project.
+            </p>
+            <p><strong>Marks Allocated: </strong>2</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%;background-color:#2980b9 !important"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 2%"
+                aria-valuenow="2"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                2%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">October 2024</div>
+          <div class="timeline-content">
+            <h3>Final Presentation & Viva</h3>
+            <p>
+              The final report and deliverables are submitted, with a final
+              presentation marking the project's end.
+            </p>
+            <p><strong>Marks Allocated: </strong>20</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 100%;background-color:#2980b9 !important"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 20%;"
+                aria-valuenow="20"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                20%
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- November 2024 - Logbook -->
+        <div class="timeline-item">
+          <label class="timeline-icon"></label>
+          <div class="timeline-date">November 2024</div>
+          <div class="timeline-content">
+            <h3>Logbook</h3>
+            <p>
+              Status of the project is validated through the logbook. This also
+              includes status documents 1 & 2.
+            </p>
+            <p><strong>Marks Allocated: </strong>3</p>
+            <div class="progress">
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style="width: 100%;background-color:#2980b9 !important"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 3%"
+                aria-valuenow="3"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                3%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section class="documents" id="documents">
+      <div class="section-title">
+        <h2>Documents</h2>
+        <p>Please find all documents related to this project below.</p>
+      </div>
+
+      <div class="documents-list">
+        <!-- Topic Assessment -->
+        <div class="document-card">
+          <h3>Topic Assessment</h3>
+          <p>Submitted on: <span>2024/02/25</span></p>
+          <p>Group</p>
+          <a href="#" class="download-link">Download</a>
+        </div>
+
+        <!-- Project Charter -->
+        <div class="document-card">
+          <h3>Project Charter</h3>
+          <p>Submitted on: <span>2024/02/25</span></p>
+          <p>Group</p>
+          <a href="#" class="download-link">Download</a>
+        </div>
+
+        <!-- Project Proposal -->
+        <div class="document-card">
+          <h3>Project Proposal</h3>
+          <p>Submitted on: <span>2024/03/22</span></p>
+          <p>Individual</p>
+          <a href="https://drive.google.com/drive/folders/1WWL1bAaCwsO4qgmALdH5PaLUHAZH9wjY?usp=sharing" class="download-link">Download</a>
+        </div>
+
+        <!-- Status Documents I -->
+        <div class="document-card">
+          <h3>Status Documents I</h3>
+          <p>Submitted on: <span>2024/07/05</span></p>
+          <p>Individual</p>
+          <a href="https://drive.google.com/drive/folders/1pvNO_dT_DjaFurziXWSbYdc2ZZRqtcc1?usp=sharing" class="download-link">Download</a>
+        </div>
+
+        <!-- Status Documents II -->
+        <div class="document-card">
+          <h3>Status Documents II</h3>
+          <p>Submitted on: <span>2024/09/11</p>
+          <p>Individual</p>
+          <a href="https://drive.google.com/drive/folders/17ieoHJxeB9UsDL0f3y0mlk46rDiR8Oiz?usp=sharing" class="download-link">Download</a>
+        </div>
+
+        <!-- Research Paper -->
+        <div class="document-card pending">
+          <h3>Research Paper</h3>
+          <p>Yet to be submitted, link will be updated soon.</p>
+          <p>Group</p>
+          <a href="#" class="download-link disabled">Download</a>
+        </div>
+
+        <!-- Final Report -->
+        <div class="document-card">
+          <h3>Final Report</h3>
+          <p>Submitted on: <span>2024/10/13</span></p>
+          <p>Group</p>
+          <a href="#" class="download-link">Download</a>
+          <p>Individual</p>
+          <a href="https://drive.google.com/drive/folders/1mU0IbAiWDIsVPgtd-bM0sdJjkfzZD-6f?usp=sharing" class="download-link">Download</a>
+        </div>
+
+        <!-- Poster -->
+        <div class="document-card">
+          <h3>Poster</h3>
+          <p>Submitted on: <span>2024/10/13</span></p>
+          <p>Group</p>
+          <a href="#" class="download-link">Download</a>
+        </div>
+      </div>
+
+      <div class="section-title">
+        <h2>Presentations</h2>
+        <p>Please find all presentations related to this project below.</p>
+      </div>
+
+      <div class="documents-list">
+        <!-- Project Proposal Presentation -->
+        <div class="document-card">
+          <h3>Project Proposal</h3>
+          <p>Submitted on: <span>2024/03/14</span></p>
+          <p>Group</p>
+          <a href="https://drive.google.com/file/d/1_vqCtMD7-F7IZLu6kwZ3oSI-vMgKhv1K/view?usp=sharing" class="download-link">Download</a>
+        </div>
+
+        <!-- Progress Presentation I -->
+        <div class="document-card">
+          <h3>Progress Presentation I</h3>
+          <p>Submitted on: <span>2024/07/08</span></p>
+          <p>Group</p>
+          <a href="https://docs.google.com/presentation/d/1GhXS_tUv19QAri_Q-XUqCOjqhZWyfGoc/edit?usp=sharing&ouid=103801540359462448154&rtpof=true&sd=true" class="download-link">Download</a>
+        </div>
+
+        <!-- Progress Presentation II -->
+        <div class="document-card">
+          <h3>Progress Presentation II</h3>
+          <p>Submitted on: <span>2024/10/18</span></p>
+          <p>Group</p>
+          <a href="https://drive.google.com/file/d/1IM5Vbrmshjge5x0PivZyL42W0wupkkiR/view?usp=sharing" class="download-link">Download</a>
+        </div>
+
+        <!-- Final Presentation -->
+        <div class="document-card pending">
+          <h3>Final Presentation</h3>
+          <p>Yet to be submitted, link will be updated soon.</p>
+          <p>Group</p>
+          <a href="#" class="download-link disabled">Download</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about-us">
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Meet our team of supervisors and project members.</p>
+        </div>
+      
+        <!--   Supervisors -->
+        <div class="team supervisors">
+      
+          <div class="team-card">
+
+            <img src="Images/Picture1.jpg" alt="Samantha Thelijjagoda" />
+
+          
+            <h3>Prof. Samantha Thelijjagoda</h3>
+            <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px; ;">Supervisor</strong></p>
+            <p>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
+            <p><strong>Department</strong><br/>Computer Systems Engineering</p>
+           
+            <div class="contact">
+              <a href="mailto:samantha.t@sliit.lk" class="email-icon"><strong>E-Mail</strong></a>
+
+            </div>
+          </div>
+      
+          <div class="team-card">
+
+            <img src="Images/Picture2.jpg" alt="Kapila Dissanayaka" />
+            <h3>Dr. Kapila Dissanayaka</h3>
+            <p><strong  style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Co Supervisor</strong></p>
+          <p>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
+            <p><strong>Department</strong><br/>Software Engineering</p>
+            <div class="contact">
+              <a href="mailto:kapila.d@sliit.lk" class="email-icon"><strong>E-Mail</strong></a>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="Images/Picture3.jpg" alt="Kapila Dissanayaka" />
+            <h3>Prof. Indrani Withanawasam</h3>
+            <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">External Supervisor</strong> </p>
+            <p>University of Ruhuna ,Sri Lanka</p>
+            <p><strong>Department</strong><br/>Computer Systems Engineering</p>
+
+            <div class="contact">
+              <a href="mailto:kapila.d@sliit.lk" class="email-icon"><strong>E-Mail</strong></a>
+            </div>
+          </div>
+      
+        </div><br/><br/>
+      
+       <!--    Team Members -->
+        <div class="team members">
+          <div class="team-card">
+            <img src="Images/Picture4.jpg" alt="S.V Dewasurendra" />
+            <h3>S.V Dewasurendra</h3>
+            <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Leader</strong></p>
+            <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
+            <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
+            
+            <div class="contact">
+              <a href="mailto:sasith1023@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+            </div>
+          </div>
+      
+          <div class="team-card">
+            <img src="Images/Picture7.jpg" alt="Udunuwara U.K.C" />
+            <h3>Udunuwara U.K.C</h3>
+            <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Member</strong></p>
+            <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
+            <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
+            <div class="contact">
+              <a href="mailto:udunuwaraukc@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+            </div>
+          </div>
+      
+          <div class="team-card">
+            <img src="Images/Picture6.jpg" alt="Wanniarachchi T.T" />
+            <h3>Wanniarachchi T.T</h3>
+            <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Member</strong></p>
+            <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
+            <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
+            <div class="contact">
+              <a href="mailto:thewunitw@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+            </div>
+          </div>
+      
+          <div class="team-card">
+            <img src="Images/Picture5.jpg" alt="Panditharathne P.D.R.L" />
+            <h3>Panditharathne P.D.R.L</h3>
+            <p><strong style="background-color: grey; color: white; padding: 2px; display: inline; font-size: 12px; border-radius: 7px;">Team Member</strong></p>
+            <p><strong>Undergraduate</strong></br>Sri Lanka Institute of Information Technology,Malabe,Sri Lanka</p>
+            <p><strong>Department</strong></br>Computer Science and Software Engineering</p>
+            <div class="contact">
+              <a href="mailto:rashmipanditharathne@gmail.com" class="email-icon"><strong>E-Mail</strong></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    <!-- Contact Us Section: Website Link -->
+    <section class="contact-us" id="contact-us">
+      <div class="website-link">
+        <a href="https://www.example.com" target="_blank" class="website-card">
+          <div class="website-logo-container">
+            <img src="logInImage.png" alt="Website Logo" class="website-logo" />
+          </div>
+          <div class="website-text">
+            <h3>Visit Website!</h3>
+            <p>
+                "Transform Your Educational Journey with Cutting-Edge AI Solutions!"
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer Section with Contact Form -->
+    <footer class="contact-footer" id="footer">
+      <div class="footer-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Contact Us</h3>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message or Query</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+          <h3>Contact Details</h3>
+          <p>
+            For further queries please reach us at
+            <a href="mailto:aspiralanka@gmail.com">aspiralanka@gmail.com</a>.
+          </p>
+          <p>Hope this project helped you in some manner. Thank you!</p>
+          <p><strong>- Team Aspira -RP-125</strong></p>
+          <img class="footer_Logo" src="logInImage.png" width="100%" height="100%">
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Ensure the JavaScript is included -->
+  </body>
+</html>
